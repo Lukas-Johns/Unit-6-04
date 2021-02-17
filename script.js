@@ -1,8 +1,8 @@
-let harold = 0;
-let jesse = 0; 
-let kyle = 0;
-let matt = 0;
-document.getElementById('press').addEventListener('click', myInput);
+let harold = 0
+let jesse = 0
+let kyle = 0
+let matt = 0
+document.getElementById('press').addEventListener('click', myInput)
 function myInput() {
   harold = document.getElementById('valueA').value
   harold = parseInt(harold)
